@@ -1,7 +1,6 @@
 from decorators import cache_decorator
 
 @cache_decorator
-
 def calculator(a, b, operation):
   # Здесь нужно реализовать функцию,
   # которая реализует основные арифметические операции между числами: +, -, /, *, **.
